@@ -141,3 +141,42 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Python cache & test
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.class
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads and temporary generated media
+backend/uploads/*
+!backend/uploads/.gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# Testing / Browser Automation scratch files
+scratch/
+scratch-*/
+scratch-cdp/
+scratch_nav.mjs
+frontend/scratch/
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
